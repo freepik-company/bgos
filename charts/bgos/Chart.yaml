@@ -1,0 +1,30 @@
+# BGOS
+apiVersion: v2
+name: bgos
+type: application
+description: >-
+  A Helm chart for BGOS, a super specific process to synchronize selected 
+  G.Workspace groups into Boundary groups following an authoritative approach
+version: 0.1.0 # chart version
+appVersion: "0.1.0" # bgos version
+kubeVersion: ">=1.22.0-0" # kubernetes version
+home: https://github.com/freepik-company/bgos
+sources:
+  - https://github.com/freepik-company/bgos
+keywords:
+  - freepik
+  - prosimcorp
+  - bgos
+  - gitops
+  - hashicorp-boundary
+  - google-workspace
+  - gsuite
+maintainers:
+  - name: Alby Hernández
+    email: ahernandez@freepik.com
+    url: https://github.com/freepik-company/bgos
+  - name: Sebastián Vargas
+    email: svargas@freepik.com
+    url: https://github.com/freepik-company/bgos
+  - name: prosimcorp
+    url: https://github.com/prosimcorp
