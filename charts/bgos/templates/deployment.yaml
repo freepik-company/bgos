@@ -30,7 +30,7 @@ spec:
           image: "{{ .Values.controller.image.repository }}:{{ .Values.controller.image.tag | default (printf "v%s" .Chart.AppVersion) }}"
           imagePullPolicy: {{ .Values.controller.image.pullPolicy }}
           command:
-            - /manager
+            - /bgos
             - run
 
           {{- with .Values.controller.extraArgs }}

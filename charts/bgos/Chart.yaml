@@ -5,7 +5,7 @@ type: application
 description: >-
   A Helm chart for BGOS, a super specific process to synchronize selected 
   G.Workspace groups into Boundary groups following an authoritative approach
-version: 0.1.1 # chart version
+version: 0.1.2 # chart version
 appVersion: "0.1.0" # bgos version
 kubeVersion: ">=1.22.0-0" # kubernetes version
 home: https://github.com/freepik-company/bgos
